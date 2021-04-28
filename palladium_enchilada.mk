@@ -31,6 +31,18 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_WIFI_EXT := true
 
+# Palladium Official
+PALLADIUM_BUILDTYPE := OFFICIAL
+
+# Maintainer & Device Props
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.palladiumdevice.maintainer=ZahidM_choudhry \
+    ro.palladiumdevice.cpu=SDM845\
+    ro.palladiumdevice.display=6.28 \
+    ro.palladiumdevice.displaytype=Optic.AMOLED \
+    ro.palladiumdevice.battery=3300mAh \
+    ro.palladiumdevice.camera=16MP+20MP
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := paladium_enchilada
 PRODUCT_DEVICE := enchilada
