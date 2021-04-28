@@ -44,7 +44,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.palladiumdevice.camera=16MP+20MP
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := paladium_enchilada
+PRODUCT_NAME := palladium_enchilada
 PRODUCT_DEVICE := enchilada
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
