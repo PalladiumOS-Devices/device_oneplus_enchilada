@@ -28,7 +28,13 @@ $(call inherit-product, vendor/palladium/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Gapps
+ifeq ($(with_gapps), yes)
+PALLADIUM_BUILD_VARIANT := GAPPS
 TARGET_GAPPS_ARCH := arm64
+TARGET_INCLUDE_STOCK_ARCORE := true
+TARGET_SUPPORTS_GOOGLE_RECORDER := false
+endif
+
 TARGET_INCLUDE_WIFI_EXT := true
 
 # Palladium Official
