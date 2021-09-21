@@ -1,6 +1,6 @@
 [
   {
-    "repository": "device_oneplus_sdm845-common",
+    "repository": "device_oneplus_fajita-common",
     "target_path": "device/oneplus/sdm845-common"
   }
 ]
