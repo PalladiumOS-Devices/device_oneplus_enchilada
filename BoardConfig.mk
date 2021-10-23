@@ -22,8 +22,5 @@ DEVICE_PATH := device/oneplus/enchilada
 # Assert
 TARGET_OTA_ASSERT_DEVICE := OnePlus6
 
-# Kernel_defconfig
-TARGET_KERNEL_CONFIG := sdm845-perf_defconfig
-
 # inherit from the proprietary version
 -include vendor/oneplus/enchilada/BoardConfigVendor.mk
